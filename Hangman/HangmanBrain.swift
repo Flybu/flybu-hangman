@@ -9,7 +9,12 @@
 import Foundation
 
 class HangmanBrain {
-    private var word = "grow"
+    
+    private let words = ["Kathy", "Howie", "Ally", "Alex", "Grow", "Toe", "Test", "Class", "Drink", "Car", "Bar", "Surface", "Pen", "Apple", "Banana"]
+    
+    private var word = ""
+    
+    private var used = ""
     
     func checkLetter(letter: String, oldCode: String) -> String {
         var newCode = ""
@@ -34,4 +39,24 @@ class HangmanBrain {
         }
         return answer
     }
+    
+    func startOrResetGame() -> String {
+        let rand = Int(arc4random_uniform(UInt32(words.count)))
+        word = words[rand]
+        used = ""
+        var code = ""
+        for _ in word.uppercaseString.characters {
+            code += "_ "
+        }
+        return code
+    }
+    
+    func markAsUsed(letter: String) {
+        used += letter
+    }
+    
+    func checkIfUsed(letter: String) -> Bool {
+        return !(used.rangeOfString(letter) == nil)
+    }
+    
 }
