@@ -12,13 +12,11 @@ Simple hangman iOS app to practice programming in Swift while using xcode. As of
 - Win/Loss detection (game doesn't go on forever)
 
 ## Planned Features
-- A "start game" button
-- A "reset game" button
-- Ability for game to choose randomly from a dictionary of words
 - Different tiers of difficulties
 - Code comments (my bad)
 - A more detailed, realistic hangman (aka adding a face)
 - Better UI scaling and positioning
+- Main Menu
 
 ### The Team
 * [Alex Banh](https://github.com/wow1881)
