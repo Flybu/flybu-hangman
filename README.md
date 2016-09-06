@@ -19,7 +19,7 @@ Simple hangman iOS app to practice programming in Swift while using xcode. As of
 - A more detailed, realistic hangman (aka adding a face)
 - Better UI scaling and positioning
 - Main Menu
-- List of letters already guessed OR black out letters already guessed on keyboard
+- Way to keep track of letters already guessed
 
 ### The Team
 * [Alex Banh](https://github.com/wow1881)
