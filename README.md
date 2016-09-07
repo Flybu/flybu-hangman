@@ -10,6 +10,8 @@ Simple hangman iOS app to practice programming in Swift while using xcode. As of
 - Poorly scaled keyboard in alphabetic order
 - Motivational text that responds to whether you get a letter right or not
 - Win/Loss detection (game doesn't go on forever)
+- Randomly chosen word from a pre-set dictionary
+- Start/Reset a game 
 
 ## Planned Features
 - Different tiers of difficulties
@@ -17,6 +19,7 @@ Simple hangman iOS app to practice programming in Swift while using xcode. As of
 - A more detailed, realistic hangman (aka adding a face)
 - Better UI scaling and positioning
 - Main Menu
+- Way to keep track of letters already guessed
 
 ### The Team
 * [Alex Banh](https://github.com/wow1881)
