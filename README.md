@@ -20,9 +20,15 @@ Simple hangman iOS app to practice programming in Swift while using xcode. As of
 - Better UI scaling and positioning
 - Main Menu
 - Way to keep track of letters already guessed
+<<<<<<< HEAD
+=======
 - Customizable features, i.e. changing colors of text
+<<<<<<< HEAD
+>>>>>>> master
+=======
 - Quit during game
 - Different categories for words
+>>>>>>> master
 
 ### The Team
 * [Alex Banh](https://github.com/wow1881)
