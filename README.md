@@ -23,6 +23,11 @@ Simple hangman iOS app to practice programming in Swift while using xcode. As of
 <<<<<<< HEAD
 =======
 - Customizable features, i.e. changing colors of text
+<<<<<<< HEAD
+>>>>>>> master
+=======
+- Quit during game
+- Different categories for words
 >>>>>>> master
 
 ### The Team
