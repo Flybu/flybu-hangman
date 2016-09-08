@@ -177,7 +177,11 @@
                                                             <action selector="Letter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NBT-bK-hp5"/>
                                                         </connections>
                                                     </button>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6P-QF-WE5" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6P-QF-WE5">
+>>>>>>> master
                                                         <rect key="frame" x="351" y="0.0" width="64" height="30"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="O"/>
