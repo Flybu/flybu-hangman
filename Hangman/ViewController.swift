@@ -40,6 +40,9 @@ class ViewController: UIViewController {
         Message.text = "Good Luck!"
         sender.setTitle("Reset", forState: UIControlState.Normal)
         gameOver = false
+        for button in buttonsSet {
+            button.enabled = true
+        }
     }
 
     //  pre:  Letter takes a sender of type UIButton which represents the guessed letter
