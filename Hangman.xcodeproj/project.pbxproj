@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42823CCC1D810D3F00E1F5C4 /* ButtonCovers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42823CCB1D810D3F00E1F5C4 /* ButtonCovers.swift */; };
 		9122FE181D591F6B00792DD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9122FE171D591F6B00792DD0 /* AppDelegate.swift */; };
 		9122FE1A1D591F6B00792DD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9122FE191D591F6B00792DD0 /* ViewController.swift */; };
 		9122FE1D1D591F6B00792DD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9122FE1B1D591F6B00792DD0 /* Main.storyboard */; };
@@ -18,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		42823CCB1D810D3F00E1F5C4 /* ButtonCovers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonCovers.swift; sourceTree = "<group>"; };
 		9122FE141D591F6B00792DD0 /* Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9122FE171D591F6B00792DD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9122FE191D591F6B00792DD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,7 +62,6 @@
 				9122FE191D591F6B00792DD0 /* ViewController.swift */,
 				9122FE1B1D591F6B00792DD0 /* Main.storyboard */,
 				9122FE2A1D5921B300792DD0 /* HangmanBrain.swift */,
-				42823CCB1D810D3F00E1F5C4 /* ButtonCovers.swift */,
 				9122FE301D59263800792DD0 /* HangmanView.swift */,
 			);
 			path = Hangman;
@@ -152,7 +149,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42823CCC1D810D3F00E1F5C4 /* ButtonCovers.swift in Sources */,
 				9122FE2B1D5921B300792DD0 /* HangmanBrain.swift in Sources */,
 				9122FE311D59263800792DD0 /* HangmanView.swift in Sources */,
 				9122FE1A1D591F6B00792DD0 /* ViewController.swift in Sources */,

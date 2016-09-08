@@ -21,10 +21,7 @@ class ViewController: UIViewController {
     
     //  Class which contains paths and methods for drawing the hangman
     @IBOutlet weak var hangmanView: HangmanView!
-    
-    // Class which toggles cover and uncover for buttons
-    @IBOutlet weak var buttonCovers: ButtonCovers!
-    
+        
     // Set which contains the Buttons used in the game
     var buttonsSet = Set<UIButton>()
     
@@ -50,7 +47,7 @@ class ViewController: UIViewController {
     //  not been used, the func then uses HangmanBrain to see if the letter is contained 
     //  within the target word and whether the target word has been found. Also fades the button used.
     //  Letter then updates var Message with a new message depending on the outcome.
-    @IBAction func Letter(sender: ButtonCovers) {
+    @IBAction func Letter(sender: UIButton) {
         if (!gameOver) {
             buttonsSet.insert(sender)
             let oldCode = HangmanWord.text
