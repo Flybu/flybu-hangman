@@ -22,6 +22,12 @@ class ViewController: UIViewController {
     //  Class which contains paths and methods for drawing the hangman
     @IBOutlet weak var hangmanView: HangmanView!
     
+    // Class which toggles cover and uncover for buttons
+    @IBOutlet weak var buttonCovers: ButtonCovers!
+    
+    // Set which contains the Buttons used in the game
+    var buttonsSet = Set<ButtonCovers>()
+    
     //  Class which processes the actual game mechanics. See HangmanBrain.swift comments for more
     private var Brain = HangmanBrain()
     
@@ -42,14 +48,17 @@ class ViewController: UIViewController {
     //  pre:  Letter takes a sender of type UIButton which represents the guessed letter
     //  post: Letter uses HangmanBrain to check to see if the letter has been used. If it has
     //  not been used, the func then uses HangmanBrain to see if the letter is contained 
-    //  within the target word and whether the target word has been found. Letter then
-    //  updates var Message with a new message depending on the outcome
-    @IBAction func Letter(sender: UIButton) {
+    //  within the target word and whether the target word has been found. Also fades the button used.
+    //  Letter then updates var Message with a new message depending on the outcome.
+    @IBAction func Letter(sender: ButtonCovers) {
         if (!gameOver) {
+            buttonsSet.insert(sender)
             let oldCode = HangmanWord.text
             var newCode = ""
             if let letter = sender.currentTitle {
                 if (!Brain.checkIfUsed(letter)) {
+                    sender.adjustsImageWhenDisabled = true
+                    sender.coverButton()
                     Brain.markAsUsed(letter)
                     newCode = Brain.checkLetter(letter, oldCode: oldCode!)
                     HangmanWord.text = newCode
@@ -61,12 +70,18 @@ class ViewController: UIViewController {
                         if (newCode.rangeOfString("_") == nil) {
                             Message.text = "You win!"
                             gameOver = true
+                            for button in buttonsSet {
+                                button.uncoverButton()
+                            }
                         }
                     }
                     if (hangmanView.wrongs == 6) {
                         Message.text = "Game Over!"
                         gameOver = true
                         HangmanWord.text = Brain.showAnswer()
+                        for button in buttonsSet {
+                            button.uncoverButton()
+                        }
                     }
                 } else {
                     Message.text = "You already tried that!"
