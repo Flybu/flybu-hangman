@@ -5,23 +5,22 @@ Simple hangman iOS app to practice programming in Swift while using xcode. As of
 
 ## Current Features
 - Play a simple game of hangman
-- Only one word to guess, word can be changed in code
 - Authentic hangman drawing featuring the gallows and the hangman
 - Poorly scaled keyboard in alphabetic order
 - Motivational text that responds to whether you get a letter right or not
 - Win/Loss detection (game doesn't go on forever)
 - Randomly chosen word from a pre-set dictionary
 - Start/Reset a game 
+- Already guessed letters grayed out
 
 ## Planned Features
 - Different tiers of difficulties
 - A more detailed, realistic hangman (aka adding a face)
 - Better UI scaling and positioning
-- Main Menu
-- Way to keep track of letters already guessed
+- Main Menu (Option to Quit during game)
 - Customizable features, i.e. changing colors of text
-- Quit during game
 - Different categories for words
+- Hint button
 
 ### The Team
 * [Alex Banh](https://github.com/wow1881)
