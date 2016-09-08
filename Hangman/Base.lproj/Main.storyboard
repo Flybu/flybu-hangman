@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -32,19 +32,31 @@
                                                 <rect key="frame" x="280" y="0.0" width="280" height="460"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Welcome!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZD-aI-ufh">
+<<<<<<< HEAD
                                                         <rect key="frame" x="0.0" y="0.0" width="280" height="154"/>
+=======
+                                                        <rect key="frame" x="0.0" y="0.0" width="280" height="153"/>
+>>>>>>> master
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Press start to begin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzO-p3-9wN">
+<<<<<<< HEAD
                                                         <rect key="frame" x="0.0" y="154" width="280" height="153"/>
+=======
+                                                        <rect key="frame" x="0.0" y="153" width="280" height="154"/>
+>>>>>>> master
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ler-NT-eNv">
+<<<<<<< HEAD
                                                         <rect key="frame" x="0.0" y="307" width="280" height="154"/>
+=======
+                                                        <rect key="frame" x="0.0" y="307" width="280" height="153"/>
+>>>>>>> master
                                                         <state key="normal" title="Start"/>
                                                         <connections>
                                                             <action selector="Start_Reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EMF-7Z-eTO"/>
@@ -60,7 +72,11 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="UKF-ia-a83">
                                                 <rect key="frame" x="0.0" y="0.0" width="560" height="30"/>
                                                 <subviews>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rJT-CD-Wdk" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rJT-CD-Wdk">
+>>>>>>> master
                                                         <rect key="frame" x="0.0" y="0.0" width="58" height="30"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="A"/>
@@ -68,7 +84,11 @@
                                                             <action selector="Letter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bQt-J6-Yk8"/>
                                                         </connections>
                                                     </button>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y2L-6Q-4qb" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y2L-6Q-4qb">
+>>>>>>> master
                                                         <rect key="frame" x="63" y="0.0" width="58" height="30"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="B"/>
@@ -76,23 +96,37 @@
                                                             <action selector="Letter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JR8-S8-4If"/>
                                                         </connections>
                                                     </button>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lLo-lM-zez" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
                                                         <rect key="frame" x="126" y="0.0" width="58" height="30"/>
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lLo-lM-zez">
+                                                        <rect key="frame" x="126" y="0.0" width="57" height="30"/>
+>>>>>>> master
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="C"/>
                                                         <connections>
                                                             <action selector="Letter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="llb-Zd-HSM"/>
                                                         </connections>
                                                     </button>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PG1-E1-Lyv" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
                                                         <rect key="frame" x="189" y="0.0" width="58" height="30"/>
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PG1-E1-Lyv">
+                                                        <rect key="frame" x="188" y="0.0" width="58" height="30"/>
+>>>>>>> master
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="D"/>
                                                         <connections>
                                                             <action selector="Letter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IeE-FQ-Rqc"/>
                                                         </connections>
                                                     </button>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="alJ-jU-qbO" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="alJ-jU-qbO">
+>>>>>>> master
                                                         <rect key="frame" x="251" y="0.0" width="58" height="30"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="E"/>
@@ -100,7 +134,11 @@
                                                             <action selector="Letter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Srp-uy-YAb"/>
                                                         </connections>
                                                     </button>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hoy-g7-JYB" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hoy-g7-JYB">
+>>>>>>> master
                                                         <rect key="frame" x="314" y="0.0" width="58" height="30"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="F"/>
@@ -108,23 +146,37 @@
                                                             <action selector="Letter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="itm-QZ-oOZ"/>
                                                         </connections>
                                                     </button>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="en3-Sp-ssh" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
                                                         <rect key="frame" x="377" y="0.0" width="58" height="30"/>
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="en3-Sp-ssh">
+                                                        <rect key="frame" x="377" y="0.0" width="57" height="30"/>
+>>>>>>> master
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="G"/>
                                                         <connections>
                                                             <action selector="Letter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X3K-qZ-1BO"/>
                                                         </connections>
                                                     </button>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uL3-dC-jeE" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
                                                         <rect key="frame" x="440" y="0.0" width="58" height="30"/>
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uL3-dC-jeE">
+                                                        <rect key="frame" x="439" y="0.0" width="58" height="30"/>
+>>>>>>> master
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="H"/>
                                                         <connections>
                                                             <action selector="Letter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xV2-7Y-64O"/>
                                                         </connections>
                                                     </button>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZA5-qE-oxt" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZA5-qE-oxt">
+>>>>>>> master
                                                         <rect key="frame" x="502" y="0.0" width="58" height="30"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="I"/>
@@ -137,7 +189,11 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="u7u-p3-9cf">
                                                 <rect key="frame" x="0.0" y="35" width="560" height="30"/>
                                                 <subviews>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="asG-6T-PMf" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="asG-6T-PMf">
+>>>>>>> master
                                                         <rect key="frame" x="8" y="0.0" width="64" height="30"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="J"/>
@@ -145,23 +201,37 @@
                                                             <action selector="Letter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="94n-3v-n9D"/>
                                                         </connections>
                                                     </button>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GmD-dV-Kyf" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
                                                         <rect key="frame" x="77" y="0.0" width="64" height="30"/>
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GmD-dV-Kyf">
+                                                        <rect key="frame" x="77" y="0.0" width="63" height="30"/>
+>>>>>>> master
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="K"/>
                                                         <connections>
                                                             <action selector="Letter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z1O-9a-mgo"/>
                                                         </connections>
                                                     </button>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9cy-AO-lou" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
                                                         <rect key="frame" x="146" y="0.0" width="64" height="30"/>
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9cy-AO-lou">
+                                                        <rect key="frame" x="145" y="0.0" width="64" height="30"/>
+>>>>>>> master
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="L"/>
                                                         <connections>
                                                             <action selector="Letter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EpM-t4-tDI"/>
                                                         </connections>
                                                     </button>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YCK-Og-x0B" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YCK-Og-x0B">
+>>>>>>> master
                                                         <rect key="frame" x="214" y="0.0" width="64" height="30"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="M"/>
@@ -169,15 +239,24 @@
                                                             <action selector="Letter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lxZ-C2-GuS"/>
                                                         </connections>
                                                     </button>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsc-UB-FNA" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
                                                         <rect key="frame" x="283" y="0.0" width="64" height="30"/>
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsc-UB-FNA">
+                                                        <rect key="frame" x="283" y="0.0" width="63" height="30"/>
+>>>>>>> master
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="N"/>
                                                         <connections>
                                                             <action selector="Letter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NBT-bK-hp5"/>
                                                         </connections>
                                                     </button>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6P-QF-WE5" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6P-QF-WE5">
+>>>>>>> master
                                                         <rect key="frame" x="351" y="0.0" width="64" height="30"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="O"/>
@@ -185,16 +264,26 @@
                                                             <action selector="Letter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iZm-qq-fqs"/>
                                                         </connections>
                                                     </button>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BRj-Tz-HN7" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
                                                         <rect key="frame" x="420" y="0.0" width="64" height="30"/>
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BRj-Tz-HN7">
+                                                        <rect key="frame" x="420" y="0.0" width="63" height="30"/>
+>>>>>>> master
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="P"/>
                                                         <connections>
                                                             <action selector="Letter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TCp-wG-ctM"/>
                                                         </connections>
                                                     </button>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MZb-0q-siH" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
                                                         <rect key="frame" x="489" y="0.0" width="64" height="30"/>
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MZb-0q-siH">
+                                                        <rect key="frame" x="488" y="0.0" width="64" height="30"/>
+>>>>>>> master
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="Q"/>
                                                         <connections>
@@ -207,7 +296,11 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="KsK-92-9Ro">
                                                 <rect key="frame" x="0.0" y="70" width="560" height="30"/>
                                                 <subviews>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="moF-tK-g87" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="moF-tK-g87">
+>>>>>>> master
                                                         <rect key="frame" x="0.0" y="0.0" width="58" height="30"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="R"/>
@@ -215,7 +308,11 @@
                                                             <action selector="Letter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hpC-U7-CHj"/>
                                                         </connections>
                                                     </button>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nye-Ei-d8S" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nye-Ei-d8S">
+>>>>>>> master
                                                         <rect key="frame" x="63" y="0.0" width="58" height="30"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="S"/>
@@ -223,23 +320,37 @@
                                                             <action selector="Letter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OU2-cO-XhV"/>
                                                         </connections>
                                                     </button>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rie-0H-3fo" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
                                                         <rect key="frame" x="126" y="0.0" width="58" height="30"/>
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rie-0H-3fo">
+                                                        <rect key="frame" x="126" y="0.0" width="57" height="30"/>
+>>>>>>> master
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="T"/>
                                                         <connections>
                                                             <action selector="Letter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ecI-8F-a2F"/>
                                                         </connections>
                                                     </button>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iLB-Ht-jGI" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
                                                         <rect key="frame" x="189" y="0.0" width="58" height="30"/>
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iLB-Ht-jGI">
+                                                        <rect key="frame" x="188" y="0.0" width="58" height="30"/>
+>>>>>>> master
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="U"/>
                                                         <connections>
                                                             <action selector="Letter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tln-hz-8ay"/>
                                                         </connections>
                                                     </button>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1rh-Nb-6zW" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1rh-Nb-6zW">
+>>>>>>> master
                                                         <rect key="frame" x="251" y="0.0" width="58" height="30"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="V"/>
@@ -247,7 +358,11 @@
                                                             <action selector="Letter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m2Y-Yu-614"/>
                                                         </connections>
                                                     </button>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s8i-Rh-ghB" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s8i-Rh-ghB">
+>>>>>>> master
                                                         <rect key="frame" x="314" y="0.0" width="58" height="30"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="W"/>
@@ -255,23 +370,37 @@
                                                             <action selector="Letter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xtL-yC-EGb"/>
                                                         </connections>
                                                     </button>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Yg-Ta-Gzr" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
                                                         <rect key="frame" x="377" y="0.0" width="58" height="30"/>
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Yg-Ta-Gzr">
+                                                        <rect key="frame" x="377" y="0.0" width="57" height="30"/>
+>>>>>>> master
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="X"/>
                                                         <connections>
                                                             <action selector="Letter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I00-x3-DaX"/>
                                                         </connections>
                                                     </button>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fm7-WL-MnM" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
                                                         <rect key="frame" x="440" y="0.0" width="58" height="30"/>
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fm7-WL-MnM">
+                                                        <rect key="frame" x="439" y="0.0" width="58" height="30"/>
+>>>>>>> master
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="Y"/>
                                                         <connections>
                                                             <action selector="Letter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ihE-Lg-X8j"/>
                                                         </connections>
                                                     </button>
+<<<<<<< HEAD
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kdl-fV-bMA" customClass="ButtonCovers" customModule="Hangman" customModuleProvider="target">
+=======
+                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kdl-fV-bMA">
+>>>>>>> master
                                                         <rect key="frame" x="502" y="0.0" width="58" height="30"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <state key="normal" title="Z"/>
