@@ -1,2 +1,8 @@
 
+<<<<<<< HEAD
 Hangman.xcodeproj/project.xcworkspace/xcuserdata/Katherine.xcuserdatad/UserInterfaceState.xcuserstate
+=======
+*.xcuserstate
+
+.DS_Store
+>>>>>>> master
