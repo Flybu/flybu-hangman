@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var buttonCovers: ButtonCovers!
     
     // Set which contains the Buttons used in the game
-    var buttonsSet = Set<ButtonCovers>()
+    var buttonsSet = Set<UIButton>()
     
     //  Class which processes the actual game mechanics. See HangmanBrain.swift comments for more
     private var Brain = HangmanBrain()
@@ -58,7 +58,7 @@ class ViewController: UIViewController {
             if let letter = sender.currentTitle {
                 if (!Brain.checkIfUsed(letter)) {
                     sender.adjustsImageWhenDisabled = true
-                    sender.coverButton()
+                    sender.enabled = false
                     Brain.markAsUsed(letter)
                     newCode = Brain.checkLetter(letter, oldCode: oldCode!)
                     HangmanWord.text = newCode
@@ -71,7 +71,7 @@ class ViewController: UIViewController {
                             Message.text = "You win!"
                             gameOver = true
                             for button in buttonsSet {
-                                button.uncoverButton()
+                                button.enabled = true
                             }
                         }
                     }
@@ -80,7 +80,7 @@ class ViewController: UIViewController {
                         gameOver = true
                         HangmanWord.text = Brain.showAnswer()
                         for button in buttonsSet {
-                            button.uncoverButton()
+                            button.enabled = true
                         }
                     }
                 } else {
