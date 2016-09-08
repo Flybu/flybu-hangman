@@ -15,7 +15,6 @@ Simple hangman iOS app to practice programming in Swift while using xcode. As of
 
 ## Planned Features
 - Different tiers of difficulties
-- Code comments (my bad)
 - A more detailed, realistic hangman (aka adding a face)
 - Better UI scaling and positioning
 - Main Menu
