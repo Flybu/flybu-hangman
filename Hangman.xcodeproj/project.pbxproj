@@ -14,6 +14,7 @@
 		9122FE221D591F6B00792DD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9122FE201D591F6B00792DD0 /* LaunchScreen.storyboard */; };
 		9122FE2B1D5921B300792DD0 /* HangmanBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9122FE2A1D5921B300792DD0 /* HangmanBrain.swift */; };
 		9122FE311D59263800792DD0 /* HangmanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9122FE301D59263800792DD0 /* HangmanView.swift */; };
+		B1166DF71D82A060002D3F56 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1166DF61D82A060002D3F56 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +24,9 @@
 		9122FE1C1D591F6B00792DD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9122FE1E1D591F6B00792DD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9122FE211D591F6B00792DD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9122FE231D591F6B00792DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9122FE2A1D5921B300792DD0 /* HangmanBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HangmanBrain.swift; sourceTree = "<group>"; };
 		9122FE301D59263800792DD0 /* HangmanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HangmanView.swift; sourceTree = "<group>"; };
+		B1166DF61D82A060002D3F56 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +74,7 @@
 				9122FE171D591F6B00792DD0 /* AppDelegate.swift */,
 				9122FE1E1D591F6B00792DD0 /* Assets.xcassets */,
 				9122FE201D591F6B00792DD0 /* LaunchScreen.storyboard */,
-				9122FE231D591F6B00792DD0 /* Info.plist */,
+				B1166DF61D82A060002D3F56 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -136,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1166DF71D82A060002D3F56 /* Info.plist in Resources */,
 				9122FE221D591F6B00792DD0 /* LaunchScreen.storyboard in Resources */,
 				9122FE1F1D591F6B00792DD0 /* Assets.xcassets in Resources */,
 				9122FE1D1D591F6B00792DD0 /* Main.storyboard in Resources */,
@@ -267,11 +269,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Hangman/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Flybu.Hangman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -280,11 +285,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Hangman/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Flybu.Hangman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
