@@ -12,6 +12,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // MARK: Properties
 
     //  The current "code" presented to the user
     @IBOutlet weak var HangmanWord: UILabel!
@@ -28,7 +30,7 @@ class ViewController: UIViewController {
     //  Class which processes the actual game mechanics. See HangmanBrain.swift comments for more
     private var Brain = HangmanBrain()
     
-    //  Boolean which represents whether a game is currently occuring or not
+    //  Boolean which represents whether a game is currently occurring or not
     private var gameOver = true
 
     //  pre:  Start_Reset takes a sender of type UIButton
@@ -40,6 +42,9 @@ class ViewController: UIViewController {
         Message.text = "Good Luck!"
         sender.setTitle("Reset", forState: UIControlState.Normal)
         gameOver = false
+        for button in buttonsSet {
+            button.enabled = true
+        }
     }
 
     //  pre:  Letter takes a sender of type UIButton which represents the guessed letter
