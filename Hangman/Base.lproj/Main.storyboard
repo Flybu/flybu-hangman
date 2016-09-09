@@ -49,6 +49,9 @@
                                                             <constraint firstAttribute="height" constant="85" id="fk3-pY-SeW"/>
                                                         </constraints>
                                                         <state key="normal" title="Hint"/>
+                                                        <connections>
+                                                            <action selector="hintButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bpt-kI-b7p"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ler-NT-eNv">
                                                         <rect key="frame" x="0.0" y="309" width="280" height="98"/>

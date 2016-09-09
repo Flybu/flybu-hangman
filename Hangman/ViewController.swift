@@ -39,6 +39,8 @@ class ViewController: UIViewController {
     //  Keeps track of the remaining number of guesses
     private var numGuessesLeft = 5
 
+    // MARK: Actions
+    
     //  pre:  Start_Reset takes a sender of type UIButton
     //  post: On button press, Start_Reset uses HangmanBrain to reset the game to an initial 
     //        state. It additionally resets the number of wrongs in hangmanView.
@@ -101,6 +103,13 @@ class ViewController: UIViewController {
             }
         }
     }
+    
+    //  pre: hintButton takes a sender of type UIButton
+    //  post: Updates var Message to print out hint (what letter to guess)
+    @IBAction func hintButton(sender: UIButton) {
+        Message.text = "Try '" + Brain.getHint() + "'"
+    }
+    
     
 
 }
