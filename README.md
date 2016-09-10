@@ -12,6 +12,7 @@ Simple hangman iOS app to practice programming in Swift while using xcode. As of
 - Randomly chosen word from a pre-set dictionary
 - Start/Reset a game 
 - Already guessed letters grayed out
+- Hint button
 
 ## Planned Features
 - Different tiers of difficulties
@@ -20,7 +21,6 @@ Simple hangman iOS app to practice programming in Swift while using xcode. As of
 - Main Menu (Option to Quit during game)
 - Customizable features, i.e. changing colors of text
 - Different categories for words
-- Hint button
 
 ### The Team
 * [Alex Banh](https://github.com/wow1881)

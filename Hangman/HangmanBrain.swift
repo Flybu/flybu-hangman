@@ -79,4 +79,16 @@ class HangmanBrain {
         return !(used.rangeOfString(letter) == nil)
     }
     
+    //  post: getHint returns a String representing a missing letter of the word
+    func getHint() -> String {
+        var rand = Int(arc4random_uniform(UInt32(word.characters.count)))
+        let characters = [Character](word.characters)
+        var charHint = String(characters[rand]).uppercaseString
+        while (checkIfUsed(charHint)) {
+            rand = Int(arc4random_uniform(UInt32(word.characters.count)))
+            charHint = String(characters[rand]).uppercaseString
+        }
+        return charHint
+    }
+    
 }
