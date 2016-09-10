@@ -83,12 +83,12 @@ class HangmanBrain {
     func getHint() -> String {
         var rand = Int(arc4random_uniform(UInt32(word.characters.count)))
         let characters = [Character](word.characters)
-        var charHint = String(characters[rand])
+        var charHint = String(characters[rand]).uppercaseString
         while (checkIfUsed(charHint)) {
             rand = Int(arc4random_uniform(UInt32(word.characters.count)))
-            charHint = String(characters[rand])
+            charHint = String(characters[rand]).uppercaseString
         }
-        return charHint.uppercaseString;
+        return charHint
     }
     
 }
