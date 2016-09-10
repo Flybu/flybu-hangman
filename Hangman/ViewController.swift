@@ -7,7 +7,7 @@
 //
 //  ViewController.swift provides code for the interaction between the storyboard and
 //  HangmanBrain. It receives input from the view, sends relevant information to the
-//  brain, and then updates elements of the view accordingly.
+//  brain, and then updates elements of the view accordingly.s
 
 import UIKit
 
