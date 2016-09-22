@@ -105,12 +105,12 @@ class ViewController: UIViewController {
     }
     
     //  pre: hintButton takes a sender of type UIButton
+    //       gameOver is false (the game is currently running)
     //  post: Updates var Message to print out hint (what letter to guess)
     @IBAction func hintButton(sender: UIButton) {
-        Message.text = "Try '" + Brain.getHint() + "'"
+        if (gameOver == false) {
+            Message.text = "Try '" + Brain.getHint() + "'"
+        }
     }
-    
-    
-
 }
 

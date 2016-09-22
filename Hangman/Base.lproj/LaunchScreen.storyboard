@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,14 +19,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="SLw-ec-uKS">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="SLw-ec-uKS">
                                 <rect key="frame" x="52" y="181" width="497" height="237"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="SLw-ec-uKS" secondAttribute="height" multiplier="497:237" id="bIU-VE-ZPi"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="SLw-ec-uKS" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="2gC-PH-qNB"/>
                             <constraint firstItem="SLw-ec-uKS" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Aln-lE-6wL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="SLw-ec-uKS" secondAttribute="trailing" constant="31" id="Ecd-aE-Jk8"/>
+                            <constraint firstItem="SLw-ec-uKS" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="32" id="Hfe-qb-cz7"/>
+                            <constraint firstItem="SLw-ec-uKS" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="161" id="LV3-ie-XYv"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="SLw-ec-uKS" secondAttribute="bottom" constant="182" id="XTO-x6-etD"/>
                         </constraints>
                     </view>
                 </viewController>
